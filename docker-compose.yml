@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: doraemon-paper-comicizer
+    ports:
+      - "4173:4173"
+    restart: unless-stopped
