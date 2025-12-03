@@ -187,7 +187,7 @@ const App: React.FC = () => {
       <div className="max-w-7xl mx-auto text-center">
         <header className="mb-12">
           <h1 className="text-5xl font-extrabold text-blue-900 mb-4 tracking-tight drop-shadow-sm font-comic-font">
-            Doraemon Paper Comicizer
+            Comicizer Pro
           </h1>
           <p className="text-xl text-blue-600 font-medium">
             Turn boring papers into fun comics with the help of Gemini!

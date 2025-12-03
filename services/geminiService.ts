@@ -91,7 +91,7 @@ export const generateComicPage = async (
 ): Promise<ComicPage> => {
   const ai = getAIClient();
   
-  const prompt = `${PROMPT_IMAGE_GENERATION_PREFIX}第${pagePlan.pageNumber}页的图像（页面分辨率统一为竖屏 2:3，语言是中文）。
+  const prompt = `${PROMPT_IMAGE_GENERATION_PREFIX} for page ${pagePlan.pageNumber} (portrait orientation with 2:3 aspect ratio, in English).
   
   Context: ${context}
   
